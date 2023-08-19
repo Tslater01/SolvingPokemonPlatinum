@@ -1,1 +1,1 @@
-# SolvingPokemonPlatinum
+# Mathematically Solving Pokemon Platinum
