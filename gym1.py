@@ -1,13 +1,11 @@
 import time
 import pyautogui
 
-
 # Function to press and hold a key, then release it
 def press_key(key, delay=0.5):
     pyautogui.keyDown(key)  # hold duration
     pyautogui.keyUp(key)
     time.sleep(delay)  # delay between each key press
-
 
 # start of Gym 1 Script
 def main():
