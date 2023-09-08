@@ -9,3 +9,4 @@ Python Passion Project, solving a game with massive variability and chance!
 # Notes
 
 # More Info
+Inspired by "Can you Beat Pokemon FireRed while Blind and Deaf?" YouTube video.
