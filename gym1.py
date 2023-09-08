@@ -10,6 +10,7 @@ def press_key(key, delay=1):
 
 
 def grass_cycle_right():
+    time.sleep(1)
     press_key('d', 13)
     press_key('x')
     press_key('a')
@@ -19,6 +20,7 @@ def grass_cycle_right():
 
 
 def grass_cycle_left():
+    time.sleep(1)
     press_key('a', 13)
     press_key('x')
     press_key('a')
@@ -28,6 +30,7 @@ def grass_cycle_left():
 
 
 def grass_cycle_up():
+    time.sleep(1)
     press_key('w', 13)
     press_key('x')
     press_key('a')
@@ -37,6 +40,7 @@ def grass_cycle_up():
 
 
 def grass_cycle_down():
+    time.sleep(1)
     press_key('s', 13)
     press_key('x')
     press_key('a')
@@ -105,8 +109,8 @@ def main():
     press_key('f', 2)
     press_key('f', 1)
     press_key('s')
-    press_key('s', 3)  # Exit House
-    press_key('a')
+    press_key('s', 4)  # Exit House
+    press_key('a', 2)
     press_key('a')
     press_key('a')
     press_key('a')
@@ -396,8 +400,8 @@ def main():
     press_key('d')
     press_key('d')
     press_key('s')
-    press_key('s', 3)  # exit house after rival battle
-    press_key('a')
+    press_key('s', 4)  # exit house after rival battle
+    press_key('a', 2)
     press_key('a')
     press_key('a')
     press_key('a', 2)
@@ -405,16 +409,18 @@ def main():
     for _ in range(28):
         press_key('w')
     press_key('w', 2)
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('w')
-    press_key('w')
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('w', 2)
+    press_key('w', 2)
+    press_key('a', 2)
     press_key('a')
     press_key('a')
     press_key('a')
@@ -445,56 +451,26 @@ def main():
     press_key('a')
     press_key('a')
     press_key('a')
-    press_key('a')
-    press_key('a')
-    press_key('w')
-    press_key('w')
-    press_key('w')
-    press_key('w')
-    press_key('w')
+    press_key('a', 2)
+    press_key('w', 2)
     press_key('w')
     press_key('w')
     press_key('w')
     press_key('w')
     press_key('w')
-    press_key('a')
-    press_key('a')
     press_key('w')
     press_key('w')
     press_key('w')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
-    press_key('f')
+    press_key('w', 2)
+    press_key('a', 2)
+    press_key('a', 2)
+    press_key('w', 2)
+    press_key('w')
+    press_key('w', 2)
+    for _ in range(34):
+        press_key('f', 2)
+    press_key('s', 2)
+    press_key('s', 4)
     press_key('s')
     press_key('s')
     press_key('s')
@@ -504,13 +480,14 @@ def main():
     press_key('s')
     press_key('s')
     press_key('s')
-    press_key('s')
-    press_key('s')
-    for _ in range(36):
+    press_key('s', 2)
+    press_key('d', 2)
+    for _ in range(34):
         press_key('d')
+    press_key('d', 2)
     press_key('w')
-    press_key('w')
-    press_key('d')  # start first grass_cycle (SAVE 5)
+    press_key('w', 2)
+    press_key('d', 2)  # start first grass_cycle (SAVE 5)
     for _ in range(11):
         grass_cycle_right()
     for _ in range(19):
@@ -521,17 +498,23 @@ def main():
         grass_cycle_up()
     for _ in range(4):
         grass_cycle_right()
-    for _ in range(15):
+    for _ in range(14):
         press_key('d')
-    for _ in range(23):
-        press_key('f', 2)  # give a nickname selection
+    press_key('d', 4)
+    for _ in range(14):
+        press_key('f', 2)
+    time.sleep(10)
+    for _ in range(7):
+        press_key('f', 2)
     press_key('s')
-    for _ in range(49):
-        press_key('f')
+    for _ in range(48):
+        press_key('f', 2)
+    time.sleep(4)
     for _ in range(10):
         press_key('s')  # outside of lab
+    time.sleep(4)
     for _ in range(18):
-        press_key('f')
+        press_key('f', 2)
     press_key('f')
     press_key('f')
     press_key('f')
@@ -540,43 +523,45 @@ def main():
         press_key('f')  # save 6, outside of poke mart
     for _ in range(34):
         press_key('a')
-    press_key('a')
-    press_key('s')
-    for _ in range(6):
+    press_key('a', 2)
+    press_key('s', 2)
+    for _ in range(5):
         press_key('s')
-    press_key('s')
-    for _ in range(24):
+    press_key('s', 2)
+    press_key('a', 2)
+    for _ in range(23):
         press_key('a')
-    press_key('a')
+    press_key('a', 2)
+    press_key('w', 2)
     press_key('w')
-    press_key('w')
-    press_key('w')
+    press_key('w', 2)
     for _ in range(15):
         press_key('a')
-    press_key('a')
-    for _ in range(35):
+    press_key('a', 2)
+    press_key('s', 2)
+    for _ in range(34):
         press_key('s')
-    press_key('s')
+    press_key('s', 2)
+    press_key('d', 2)
     press_key('d')
     press_key('d')
-    press_key('d')
-    press_key('d')
+    press_key('d', 2)
+    press_key('w', 2)
+    press_key('w', 4)  # enter home
     press_key('w')
-    press_key('w')  # enter home
-    press_key('w')
-    press_key('w')
+    press_key('w', 2)
     press_key('d')
-    press_key('f')
-    press_key('f')
-    press_key('f')
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 2)
     for _ in range(18):
-        press_key('f')
+        press_key('f', 2)
     time.sleep(5)
-    for _ in range(16):
-        press_key('f')
+    for _ in range(18):
+        press_key('f', 2)
+    press_key('s', 2)
     press_key('s')
-    press_key('s')
-    press_key('s')  # outside of moms house (heading_to_jubilife save)
+    press_key('s', 4)  # outside of moms house (heading_to_jubilife save)
     press_key('a', 2)
     press_key('a')
     press_key('a')
