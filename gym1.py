@@ -645,6 +645,201 @@ def main():
     # turn('d')
     # for _ in range(3):
     #     press_key('d')
+    # press_key('d', 4)  # second trainer route 202
+    # press_key('f', 2)
+    # press_key('f', 15)
+    # press_key('f')
+    # press_key('f')
+    # press_key('f', 12)
+    # press_key('f')
+    # press_key('f', 12)
+    # press_key('f')
+    # press_key('f', 12)
+    # press_key('a')
+    # press_key('a')
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 14)
+    # press_key('w')
+    # press_key('f')
+    # press_key('f', 12)
+    # press_key('f')
+    # press_key('f', 12)
+    # press_key('f')
+    # press_key('f', 20)
+    # for _ in range(5):
+    #     press_key('f', 2)
+    # turn('s')
+    # press_key('f')
+    # turn('s')
+    # for _ in range(11):
+    #     press_key('s')  # almost in tree corner but not quite
+    # turn('d')
+    # press_key('d')
+    # press_key('d')
+    # turn('s')
+    # for _ in range(11):
+    #     press_key('s')
+    # turn('a')
+    # for _ in range(6):
+    #     press_key('a')
+    # turn('w', 5)
+    # for _ in range(6):
+    #     press_key('w')
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 7)
+    # press_key('f', 2)
+    # press_key('f', 3)
+    # press_key('f')
+    # turn('s')
+    # for _ in range(6):
+    #     press_key('s')
+    # time.sleep(5)
+    # turn('d')
+    # for _ in range(6):
+    #     press_key('d')
+    # turn('w')
+    # for _ in range(16):
+    #     press_key('w')
+    # turn('a')
+    # for _ in range(3):
+    #     press_key('a')
+    # for _ in range(6):
+    #     grass_cycle_left()
+    # for _ in range(6):
+    #     press_key('a')
+    # for _ in range(4):
+    #     grass_cycle_left()
+    # for _ in range(9):
+    #     grass_cycle_up()
+    # for _ in range(6):
+    #     press_key('w')
+    # turn('d')
+    # for _ in range(11):
+    #     press_key('d')
+    # turn('s')
+    # for _ in range(4):
+    #     press_key('s')
+    # turn('d')
+    # for _ in range(5):
+    #     press_key('d')
+    # turn('w')
+    # for _ in range(7):
+    #     grass_cycle_up()
+    # for _ in range(6):
+    #     grass_cycle_right()
+    # grass_cycle_up()
+    # grass_cycle_up()
+    # for _ in range(7):
+    #     press_key('w')
+    # for _ in range(3):
+    #     press_key('d')  # top right tree corner
+    # turn('s')
+    # turn('a')
+    # press_key('a')
+    # press_key('a')  # third trainer route 202
+    # press_key('a', 5)
+    # press_key('f', 16)
+    # press_key('f')
+    # press_key('s')
+    # press_key('f', 16)
+    # press_key('f')
+    # press_key('f', 20)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # turn('d')
+    # press_key('d')
+    # press_key('d')
+    # press_key('d')
+    # turn('w')  # top right tree corner
+    # turn('s')
+    # turn('a')
+    # for _ in range(4):
+    #     press_key('a')
+    # for _ in range(5):
+    #     grass_cycle_left()
+    # for _ in range(10):
+    #     press_key('a')
+    # turn('s')
+    # turn('a')
+    # for _ in range(5):
+    #     grass_cycle_left()
+    # time.sleep(3)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # press_key('f', 2)
+    # for _ in range(5):
+    #     grass_cycle_right()
+    # turn('w')
+    # press_key('w')
+    # press_key('w')
+    # turn('d')
+    # for _ in range(6):
+    #     press_key('d')
+    # turn('a')
+    # turn('w')
+    # for _ in range(7):
+    #     press_key('w')
+    # time.sleep(6)  # Dawn walks up @ Jubilife
+    # for _ in range(55):
+    #     press_key('f', 2)
+    # turn('a')
+    # for _ in range(3):
+    #     press_key('a')
+    # turn('s')
+    # press_key('s')
+    # turn('a')
+    # for _ in range(3):
+    #     press_key('a')
+    # turn('w', 4)
+    # for _ in range(6):
+    #     press_key('w')
+    # turn('a')
+    # for _ in range(3):
+    #     press_key('a')
+    # turn('w')
+    # turn('a')
+    # for _ in range(3):
+    #     press_key('f', 2)
+    # turn('d')
+    # turn('s')
+    # turn('d')
+    # press_key('d')
+    # press_key('d')
+    # turn('w')
+    # for _ in range(23):
+    #     press_key('f', 2)
+    # for _ in range(8):
+    #     press_key('s')
+    # turn('d')
+    # turn('s', 4)  # leaving trainer school
+    turn('d')
+    for _ in range(5):
+        press_key('d')
+    turn('w', 5)
+    for _ in range(8):
+        press_key('f', 2)
+    turn('d')
+    turn('w')
+    for _ in range(7):
+        press_key('w')
+    turn('d')
+    for _ in range(4):
+        press_key('d')
+    turn('s')
+    turn('d')
+    for _ in range(20):
+        press_key('d', 2)
+    for _ in range(9):
+        press_key('f', 2)
 
 
 # Execute the main function
