@@ -212,6 +212,63 @@ def fury_swipes_cycle():
         press_key('d')  # one tile away from rival fight
 
 
+def flame_wheel_cycle():
+    press_key('d', 5)
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 15)
+    press_key('s')
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f', 20)
+    for _ in range(2):
+        press_key('r', 2)
+    time.sleep(15)
+    press_key('a')
+    press_key('d')
+    press_key('f', 2)
+    press_key('s')
+    press_key('s')
+    press_key('f')
+    press_key('f', 18)
+    press_key('a', 2)
+    press_key('w', 2)
+    press_key('f', 2)
+    press_key('d', 2)
+    for _ in range(12):
+        press_key('f', 14)
+        press_key('f')
+        press_key('w')
+        for _ in range(3):
+            press_key('f', 14)
+            press_key('f')
+        press_key('s')
+    for _ in range(4):
+        press_key('f', 2)
+    for _ in range(10):
+        press_key('f', 2)
+        turn('a')
+        for _ in range(7):
+            press_key('s')
+        turn('a')
+        for _ in range(5):
+            press_key('a')  # bottom left corner of poke center
+    turn('d')
+    for _ in range(5):
+        press_key('d')
+    turn('s', 5)
+    turn('a')
+    for _ in range(3):
+        press_key('a')
+    turn('w')
+    for _ in range(18):
+        press_key('w')
+    turn('d')
+    for _ in range(18):
+        press_key('d')  # one tile away from rival fight
+
+
 def rival_cycle():
     press_key('d', 5)
     press_key('f', 2)
@@ -1154,7 +1211,11 @@ def main():
     #     chim_cycle()
     # fury_swipes_cycle()
     # fury_swipes_cycle()
-    for _ in range(11):
+    # for _ in range(11):
+    #     rival_cycle()
+    # flame_wheel_cycle()
+    flame_wheel_cycle()
+    for _ in range(67):
         rival_cycle()
 
 
