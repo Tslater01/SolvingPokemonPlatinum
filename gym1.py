@@ -331,11 +331,8 @@ def main():
     # press_key('f', 1)
     # press_key('d')
     # press_key('s')
-    # press_key('s')
-    # press_key('s')
-    # press_key('s')
-    # press_key('s')
-    # press_key('s')
+    # for _ in range(6):
+    #     press_key('s')
     # press_key('f', 1)
     # press_key('f', 2)
     # press_key('s')
