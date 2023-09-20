@@ -170,6 +170,7 @@ def fury_swipes_cycle():
         press_key('r', 2)
     time.sleep(15)
     press_key('s')
+    press_key('s')
     press_key('f', 4)
     press_key('r')
     press_key('f', 10)
@@ -179,7 +180,7 @@ def fury_swipes_cycle():
     press_key('w')
     press_key('f')
     press_key('d')
-    for _ in range(8):
+    for _ in range(12):
         press_key('f', 14)
         press_key('f')
         press_key('w')
@@ -330,8 +331,12 @@ def main():
     # press_key('s')
     # press_key('f', 1)
     # press_key('d')
-    # for _ in range(6):
-    #     press_key('s')
+    # press_key('s')
+    # press_key('s')
+    # press_key('s')
+    # press_key('s')
+    # press_key('s')
+    # press_key('s')
     # press_key('f', 1)
     # press_key('f', 2)
     # press_key('s')
@@ -1210,8 +1215,15 @@ def main():
     # for _ in range(11):
     #     rival_cycle()
     # flame_wheel_cycle()
-    flame_wheel_cycle()
-    for _ in range(67):
+    # flame_wheel_cycle()
+    # for _ in range(67):
+    #     rival_cycle()
+    # fury_swipes_cycle()
+    # fury_swipes_cycle()
+    # for _ in range(33):
+    #     rival_cycle()
+    # fury_swipes_cycle()
+    for _ in range(148):
         rival_cycle()
 
 
