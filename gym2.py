@@ -27,6 +27,10 @@ def grass_cycle_right():
     press_key('x')
     press_key('f', 7)
 
+def main():
+    time.sleep(2)
+    press_key('f', 3)
+
 
 def grass_cycle_left():
     time.sleep(1)
@@ -56,3 +60,7 @@ def grass_cycle_down():
     press_key('d')
     press_key('x')
     press_key('f', 7)
+
+def main():
+    time.sleep(2)
+    press_key('f', 3)
