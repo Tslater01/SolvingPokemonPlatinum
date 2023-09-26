@@ -62,5 +62,10 @@ def grass_cycle_down():
     press_key('f', 7)
 
 def main():
-    time.sleep(2)
-    press_key('f', 3)
+    time.sleep(2) 
+    turn('d')  # go heal monferno / teach monferno rock smash
+
+
+# Execute the main function
+if __name__ == "__main__":
+    main()
