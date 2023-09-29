@@ -493,8 +493,206 @@ def main():
         press_key('a')
     turn('w')
     for _ in range(8):
-        press_key('w')  # start of new route
-
+        press_key('w')
+    turn('a')
+    press_key('a')
+    press_key('a')
+    turn('w')
+    press_key('w')
+    for _ in range(9):
+        grass_cycle_up()
+    for _ in range(9):
+        grass_cycle_left()
+    turn('w')
+    for _ in range(3):
+        press_key('w')
+    turn('d')
+    press_key('d')
+    press_key('d')
+    turn('w')
+    press_key('d')
+    press_key('f', 3)
+    press_key('f', 14)
+    press_key('w')
+    press_key('f')
+    press_key('d')
+    press_key('f', 22)
+    press_key('f')
+    press_key('f', 22)
+    press_key('f')
+    press_key('f', 25)  # defeat hiker
+    turn('w')
+    for _ in range(4):
+        press_key('w')
+    turn('a')
+    turn('w')
+    for _ in range(3):
+        press_key('w')
+    time.sleep(10)
+    press_key('f', 14)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f', 25)
+    turn('w')
+    for _ in range(12):
+        press_key('w')
+    turn('a')
+    turn('w')
+    for _ in range(3):
+        press_key('w')
+    grass_cycle_up()
+    grass_cycle_up()
+    grass_cycle_right()
+    grass_cycle_right()
+    for _ in range(6):
+        grass_cycle_up()
+    press_key('w', 8)
+    press_key('f', 14)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f, 25')
+    turn('w')
+    turn('a')
+    turn('w')
+    for _ in range(20):
+        press_key('w')  # eterna forest
+    time.sleep(5)
+    press_key('w', 5)
+    for _ in range(10):
+        press_key('f', 2)
+    turn('d')
+    press_key('d')
+    turn('w')
+    press_key('w')
+    press_key('w')
+    turn('a')
+    turn('d')
+    for _ in range(4):
+        grass_cycle_right()
+    for _ in range(8):
+        grass_cycle_up()
+    turn('d')
+    for _ in range(3):
+        press_key('d')
+    turn('w')
+    for _ in range(7):
+        press_key('w')
+    time.sleep(5)
+    press_key('f', 4)
+    press_key('f', 16)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f')
+    press_key('f', 20)
+    press_key('r')
+    press_key('r', 12)
+    press_key('f')
+    press_key('f')
+    press_key('d')
+    press_key('f', 25)
+    press_key('f')
+    press_key('f')
+    press_key('f', 25)
+    press_key('f')
+    press_key('f')
+    press_key('f', 35)  # won first double battle
+    turn('w')
+    turn('d')
+    turn('w')
+    for _ in range(7):
+        press_key('w')
+    turn('d')
+    for _ in range(10):
+        press_key('d')
+    turn('s')
+    for _ in range(8):
+        press_key('s')
+    time.sleep(3)
+    for _ in range(6):
+        press_key('f', 2)
+    press_key('f', 16)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f')
+    press_key('f', 25)
+    press_key('f')
+    press_key('f')
+    press_key('d')
+    press_key('f', 25)
+    turn('s')
+    for _ in range(5):
+        press_key('s')
+    for _ in range(5):
+        grass_cycle_down()
+    for _ in range(15):
+        grass_cycle_right()
+    for _ in range(9):
+        grass_cycle_up()
+    for _ in range(5):
+        press_key('w')
+    turn('d')
+    turn('w')
+    press_key('w')
+    turn('d')
+    for _ in range(14):
+        press_key('d')
+    for _ in range(3):
+        grass_cycle_right()
+    for _ in range(10):
+        grass_cycle_up()
+    for _ in range(8):
+        press_key('w')
+    turn('a')
+    for _ in range(5):
+        press_key('a')
+    grass_cycle_left()
+    for _ in range(7):
+        grass_cycle_up()
+    press_key('w')
+    press_key('w')
+    press_key('w')
+    turn('d')
+    for _ in range(4):
+        press_key('d')
+    time.sleep(5)
+    for _ in range(10):
+        press_key('f', 2)
+    for _ in range(5):
+        press_key('d')
+    time.sleep(5)  # route 205
+    press_key('d')
+    turn('s')
+    for _ in range(4):
+        press_key('s')
+    turn('d')
+    for _ in range(12):
+        press_key('d')
+    turn('s')
+    press_key('s')
+    press_key('s')
+    turn('d')
+    for _ in range(29):
+        press_key('d')
+    turn('s')
+    for _ in range(26):
+        press_key('s')
+    turn('d')
+    turn('s')
+    for _ in range(3):
+        press_key('s')
+    turn('d')
+    for _ in range(7):
+        press_key('d')
+    turn('w')
+    for _ in range(8):
+        press_key('f', 2)
+    press_key('w')
+    press_key('w', 5)  # enter gym_2
+    
 
 # Execute the main function
 if __name__ == "__main__":
