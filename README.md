@@ -8,6 +8,7 @@ Python Passion Project, solving a game with massive variability and chance. Pok√
 
 # Notes
 gym_1 finished on 9/25/23
+gym_2 finished on 9/29/23
 
 # More Info
 The concept of playing and completing a game without the traditional senses was popularized by projects such as "Can you Beat Pokemon FireRed while Blind and Deaf?". This project takes that challenge to the next level by not only attempting to complete Pok√©mon Platinum without visual or auditory cues but by mathematically determining a sequence of inputs that guarantees success.
