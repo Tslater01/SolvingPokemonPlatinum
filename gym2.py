@@ -692,7 +692,95 @@ def main():
         press_key('f', 2)
     press_key('w')
     press_key('w', 5)  # enter gym_2
-    
+    for _ in range(5):
+        press_key('w')
+    turn('d')
+    press_key('d')
+    press_key('f', 2)
+    press_key('f', 16)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f', 25)
+    press_key('f')
+    press_key('f', 25)
+    press_key('f', 2)
+    press_key('f', 2)
+    time.sleep(20)
+    turn('a')
+    press_key('a')
+    turn('w')
+    for _ in range(7):
+        press_key('w')
+    turn('d')
+    for _ in range(8):
+        press_key('d')
+    turn('s')
+    press_key('s')
+    press_key('s')
+    press_key('f', 2)
+    press_key('f', 2)
+    press_key('f', 14)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f', 25)
+    press_key('f')
+    press_key('f', 25)
+    press_key('f')
+    press_key('f', 25)
+    for _ in range(3):
+        press_key('f', 2)
+    time.sleep(10)
+    press_key('f', 2)
+    press_key('f', 2)
+    turn('w')
+    press_key('w')
+    press_key('w')
+    turn('a')
+    for _ in range(16):
+        press_key('a')
+    turn('w')
+    for _ in range(4):
+        press_key('w')
+    press_key('f', 2)
+    press_key('f', 16)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    press_key('f', 25)
+    press_key('r')
+    press_key('r', 12)
+    press_key('f', 2)
+    press_key('f', 20)
+    press_key('f', 2)
+    press_key('f', 2)
+    turn('s')
+    for _ in range(4):
+        press_key('s')
+    turn('d')
+    for _ in range(8):
+        press_key('d')
+    turn('w')
+    for _ in range(7):
+        press_key('w')
+    for _ in range(6):
+        press_key('f', 2)
+    time.sleep(15)
+    press_key('w')
+    press_key('f')
+    press_key('s')
+    for _ in range(3):
+        press_key('f')
+        press_key('f', 25)
+    for _ in range(15):
+        press_key('f', 2)
+    time.sleep(8)
+    turn('s')
+    for _ in range(22):
+        press_key('s')
+    time.sleep(5)  # gym_2 completed
+
 
 # Execute the main function
 if __name__ == "__main__":
