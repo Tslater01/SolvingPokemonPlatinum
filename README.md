@@ -1,14 +1,15 @@
 # Mathematically Solving Pokémon Platinum
-A solved game is a game whose outcome (win, lose, or draw) can be correctly predicted from any position, assuming both players play perfectly. This concept is usually applied to abstract strategy games, especially games with complete information and no element of chance; solving such a game may use combinatorial game theory and/or computer assistance. This repository contains a list of inputs that will beat 100% of all Pokémon Platinum games. No RNG manipulation is involved, and no frame-perfect inputs are required. The sequence of inputs is static; it does not require any information from the game. This code intends to enable beating the game with no visuals/audio or "blind and deaf."
+This GitHub repository, "Mathematically Solving Pokémon Platinum," focuses on the concept of solving a game, where the outcome can be accurately predicted under perfect play conditions. Typically applied to abstract strategy games, this repository applies these principles to Pokémon Platinum, a game known for its complexity and variability.
 
-# Overview
-Python Passion Project, solving a game with massive variability and chance. Pokémon Platinum, part of the fourth generation of Pokémon games, is renowned for its complexity and variability. Unlike traditional board games, it presents a myriad of choices, random encounters, and strategies. This project aims to mathematically solve Pokémon Platinum, creating a set of inputs that guarantee victory without any in-game feedback.
+Unlike traditional board games, Pokémon Platinum involves a multitude of choices, random encounters, and strategies. However, this project aims to overcome these challenges by providing a predetermined sequence of inputs that ensures victory, all without relying on in-game feedback, RNG manipulation, or frame-perfect inputs.
 
-# Content
+This Python Passion Project represents an ambitious attempt to mathematically solve Pokémon Platinum, aiming to create a foolproof set of inputs that guarantee success, regardless of the game's inherent variability. This project extends the concept of playing a game without traditional senses by going beyond the visual and auditory aspects, instead relying solely on mathematical calculations to secure victory. Additionally, progress updates are provided, with Gym 1 and Gym 2 already completed as of specific dates. This project's unique approach takes inspiration from endeavors like "Can you Beat Pokemon FireRed while Blind and Deaf?" but elevates the challenge by introducing mathematical precision to ensure success.
+
+# Features
+The first important choice we have to make while programming this game is our starter.
 
 # Notes
 - gym_1 finished on 9/25/23
 - gym_2 finished on 9/29/23
 
-# More Info
-The concept of playing and completing a game without the traditional senses was popularized by projects such as "Can you Beat Pokemon FireRed while Blind and Deaf?". This project takes that challenge to the next level by not only attempting to complete Pokémon Platinum without visual or auditory cues but by mathematically determining a sequence of inputs that guarantees success.
+
