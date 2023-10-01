@@ -30,14 +30,14 @@ The ultimate goal of this project is to show the programming process required to
 - The project recognizes the importance of grass encounters and their randomness.
 - The Python script accounts for the chance of the player to either encounter a Pokemon or have nothing happen when walking (or spinning) on each grass tile.  
 - The grass_cycle is essential to the run and is used as follows:
-  def grass_cycle_right():
-    time.sleep(1)
-    press_key('d', 17)
-    press_key('x')
-    press_key('a')
-    press_key('d')
-    press_key('x')
-    press_key('f', 7)
+  - def grass_cycle_right():
+    - time.sleep(1)
+    - press_key('d', 17)
+    - press_key('x')
+    - press_key('a')
+    - press_key('d')
+    - press_key('x')
+    - press_key('f', 7)
   - The sequence of inputs described above unfolds as follows: When the player steps onto a new grass tile, they are either thrust into a random encounter or remain on the tile for 17 seconds. Subsequently, the player presses the start menu button. In a battle encounter, this action has no effect, but in the overworld, it triggers the selection screen, allowing the dimension where the encounter is taking place to utilize any move without affecting the state of the overworld game.
 
 
