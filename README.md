@@ -18,7 +18,7 @@ The ultimate goal of this project is to showcase the programming process require
 # Features
 **Starter Pokémon Choice:**
 - The project begins with the critical decision of selecting a starter Pokémon.
-- Turtwig is ruled out due to its low-accuracy move.
+- Turtwig is ruled out due to its low-accuracy move (5% miss rate).
 - Piplup initially appears to be the best choice, especially for the first gym, which is Rock-type.
 - However, the project emphasizes the need for a starter capable of learning Rock Smash and Cut to progress.
 - Chimchar is chosen because it can learn both moves.
