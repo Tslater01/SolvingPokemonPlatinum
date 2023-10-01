@@ -6,7 +6,7 @@ Pokémon Platinum involves a multitude of choices, random encounters, and strate
 This Python Project represents an ambitious attempt to programmatically solve Pokémon Platinum, aiming to create a foolproof set of inputs that guarantee success, regardless of the game's inherent variability. This project extends the concept of playing a game without traditional senses by going beyond the visual and auditory aspects, instead relying solely on mathematical calculations to secure victory. Additionally, progress updates are provided, with Gym 1 and Gym 2 already completed as of specific dates. This project's unique approach takes inspiration from endeavors like "Can you Beat Pokemon FireRed while Blind and Deaf?" on YouTube but elevates the challenge by introducing mathematical precision to ensure success.
 
 # Features
-** Starter Pokémon Choice: **
+**Starter Pokémon Choice:**
 - The project begins with the critical decision of selecting a starter Pokémon.
 - Turtwig is ruled out due to its low-accuracy move.
 - Piplup initially appears to be the best choice, especially for the first gym, which is Rock-type.
