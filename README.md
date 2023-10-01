@@ -13,20 +13,20 @@ This Python Project represents an ambitious attempt to programmatically solve Po
 - However, the project emphasizes the need for a starter capable of learning both Rock Smash and Cut to progress.
 - Chimchar is chosen because it can learn both moves.
 
-** Variability in Chimchar Stats: **
+**Variability in Chimchar Stats:**
 - Chimchar's stats can vary significantly depending on its Nature and IV combinations.
 - The project considers the strongest possible Chimchar and the weakest possible Chimchar to establish boundaries for the calculations.
 - By ensuring consistent outcomes with both the weakest and strongest Chimchar, the project can predict results for all possible Chimchar variations.
 
-** Battle Calculations: **
+**Battle Calculations:**
 - The project involves complex calculations, including critical hit probabilities, special attack, damage calculations, and more.
 - These calculations aim to provide precise predictions of in-game battles.
 
-** Rival Battle and Restart Mechanism: **
+**Rival Battle and Restart Mechanism:**
 - Acknowledgment of a ~4.25 percent chance of losing the first battle against the rival, which results in different experience gains.
 - The project accounts for this loss as the game's progression will lead back to the house with the starter fully restored, ensuring it doesn't affect the overall outcome.
 
-** Grass Encounters: **
+**Grass Encounters:**
 - The project recognizes the importance of grass encounters and the randomness associated with them.
 - Presumably, the project will address strategies for dealing with these encounters and incorporate them into the overall solution.
 
