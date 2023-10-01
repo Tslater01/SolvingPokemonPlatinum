@@ -21,7 +21,7 @@ The ultimate goal of this project is to showcase the programming process require
 - Turtwig is ruled out due to its low-accuracy move (5% miss rate).
 - Piplup initially appears to be the best choice, especially for the first gym, which is Rock-type.
 - However, the project emphasizes the need for a starter capable of learning Rock Smash and Cut to progress.
-- Chimchar is chosen because it can learn both moves.
+- Chimchar is chosen because it can learn both moves and has Scratch (0% miss rate).
 
 **Variability in Chimchar Stats:**
 - Chimchar's stats can vary significantly depending on its Nature and IV combinations.
