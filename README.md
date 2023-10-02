@@ -52,7 +52,7 @@ The ultimate goal of this project is to showcase the programming process require
 
 **rival_cycle:**
 - The rival_cycle is a vital aspect of the gameplay strategy.
-- Early in the game, the program cannot gain experience points (Exp) through random grass encounters before the first gym. To level up Chimchar, we need to acquire Exp from trainer battles.
+- Early in the game, Chimchar cannot gain experience points (Exp) through random grass encounters, as the program has zero idea if the player is involved in a randomly encountered battle. To level up Chimchar, we need to acquire Exp from trainer battles.
 - The rival_cycle strategy involves defeating one of the trainer's Pokémon and then intentionally losing to their second Pokémon.
 - Our preferred trainer for this strategy is Barry, who has a level 9 Pidgey. We defeat Pidgey and intentionally lose to Barry's second Pokémon, Piplup.
 - After fainting, Chimchar gains the Exp from the first Pokémon. We then restore Chimchar at a PokeCenter and return to the rival battle, allowing us to repeat this process until Chimchar reaches the desired level.
