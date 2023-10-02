@@ -114,7 +114,7 @@ The ultimate goal of this project is to showcase the programming process require
        - press_key('d')  # one tile away from rival fight
      
 # Currently Working On 
-- Presently, I'm focused on the section of the game that occurs between gym_2 and gym_3.
+- Presently, I'm focused on the section of the programming process that occurs between gym_2 and gym_3.
 - This phase is expected to be the most time-consuming since it involves the Pokemon Day Care Center.
 - The Pokemon Day Care Center allows us to continually level up our Pokemon that we will use for the rest of the game in exchange for steps walked and in-game currency.
 - Our current programming task involves leveling up Monfernape (the evolution of Chimchar) to reach Level 100 Infernape.
