@@ -115,11 +115,11 @@ The ultimate goal of this project is to showcase the programming process require
      
 # Currently Working On 
 - Presently, I'm focused on the section of the game that occurs between gym_2 and gym_3.
-- This phase is expected to be the most time-consuming since it involves Pokemon the Day Care Center.
-- The Pokemon Day Care Center allows us to continually level up our Pokemon for the rest of the game in exchange for steps walked and in-game currency.
+- This phase is expected to be the most time-consuming since it involves the Pokemon Day Care Center.
+- The Pokemon Day Care Center allows us to continually level up our Pokemon that we will use for the rest of the game in exchange for steps walked and in-game currency.
 - Our current programming task involves leveling up Monfernape (the evolution of Chimchar) to reach Level 100 Infernape.
 - Besides our starter Pokemon, we also receive a Togepi from Cynthia. We'll apply the same leveling process from Togepi to Level 100.
-- Once we've programmatically leveled up these two Pokemon to their maximum level, gym_3 and beyond will be smoother.
+- Once we've programmatically leveled up these two Pokemon to their maximum level, gym_3 and beyond will be much easier to defeat.
   
 # Notes
 - gym_1 finished on 9/25/23
