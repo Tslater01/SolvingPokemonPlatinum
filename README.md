@@ -49,17 +49,17 @@ The ultimate goal of this project is to showcase the programming process require
   - The sequence of inputs described above unfolds as follows: When the player steps onto a new grass tile, they are either thrust into a random encounter or remain on the tile for 17 seconds. Subsequently, the player presses the start menu button. In a battle encounter, this action has no effect, but in the overworld, it triggers the selection screen, allowing the dimension where the encounter is taking place to utilize any move without affecting the state of the overworld game.
 
 **rival_cycle:**
-- The rival_cycle is arguably the most crucial feature of the run.
-- Since the program has zero way to garner exp to level up the Chimchar before the first gym, the only way to acquire Exp is through trainer battles.
-- While it is true beating a trainer battle once allows you to gain Exp a singular time, the rival_cycle utilizes a strategy by beating a singular one of the trainer's pokemon, then purposefully losing to the second one.
-- The best trainer to do this against is our rival, Barry. Barry has a level 9 Pidgey that we will knock out, and then purposefully lose to Barry's second Pokemon, Piplup. 
-- After the player faints, Chimchar gains that Exp from the first Pokemon and can challenge continuously until one reaches the desired level.
-- The rival_cycle is a very long process, being ran a total of **285** times.
-- An average rival_cycle (varies due to learning new moves, leveling up, etc,) takes 18 minutes.
-- **285 rival_cycles averaging 18 minutes per cycle takes a total of 85 hours and 30 minutes**
-- After 85.5 hours of continuously losing to Barry, Chimchar has grown from Level 9 to 31.
-- Since Chimchar is now Level 31, it can now take on the first gym comfortably by himself.
-- Here is the inputs for rival_cycle:
+- The rival_cycle is a vital aspect of the gameplay strategy.
+- Early in the game, the program cannot gain experience points (Exp) through random grass encounters before the first gym. To level up Chimchar, we need to acquire Exp from trainer battles.
+- The rival_cycle strategy involves defeating one of the trainer's Pokémon and then intentionally losing to their second Pokémon.
+- Our preferred trainer for this strategy is Barry, who has a level 9 Pidgey. We defeat Pidgey and intentionally lose to Barry's second Pokémon, Piplup.
+- After fainting, Chimchar gains the Exp from the first Pokémon. We then restore Chimchar at a PokeCenter and return to the rival battle, allowing us to repeat this process until Chimchar reaches the desired level.
+- The rival_cycle is a lengthy process, requiring a total of **285** iterations.
+- On average, each rival_cycle takes about 18 minutes, although this duration can vary due to factors like learning new moves or leveling up.
+- Completing **285 rival_cycles**, averaging 18 minutes each, results in a total of **85 hours and 30 minutes** of gameplay.
+- After approximately 85.5 hours of consistently losing to Barry, Chimchar will have grown from Level 9 to 31.
+- With Chimchar now at Level 31, it can comfortably take on the first gym.
+- Below are the inputs for the rival_cycle:
   - def rival_cycle():
     - press_key('d', 5)
     - press_key('f', 2)
