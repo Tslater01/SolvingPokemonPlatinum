@@ -59,3 +59,4 @@ def grass_cycle_down():
 
 def main():
     time.sleep(2)
+    turn (a)
