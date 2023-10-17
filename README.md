@@ -60,7 +60,7 @@ The ultimate goal of this project is to showcase the programming process require
 - On average, each rival_cycle takes about 18 minutes, although this duration can vary due to factors like learning new moves or leveling up.
 - Completing **285 rival_cycles**, averaging 18 minutes each, results in a total of **85 hours and 30 minutes** of gameplay.
 - After approximately 85.5 hours of consistently losing to Barry, Chimchar will have grown from Level 9 to 31.
-- With Chimchar now at Level 31, it can comfortably take on the first gym.
+- Chimchar now at Level 31 can comfortably take on the first gym.
 - Below are the inputs for the rival_cycle:
   - def rival_cycle():
     - press_key('d', 5)
