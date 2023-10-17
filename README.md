@@ -46,7 +46,7 @@ The ultimate goal of this project is to showcase the programming process require
     - press_key('d')
     - press_key('x')
     - press_key('f', 7)
-  - The sequence of inputs described above unfolds as follows: When the player steps onto a new grass tile, they are either thrust into a random encounter or remain on the tile for 17 seconds. Subsequently, the player presses the start menu button. In a battle encounter, this action has no effect, but in the overworld, it triggers the selection screen, allowing the dimension where the encounter takes place to utilize any move without affecting the state of the overworld game. The player runs away and then hits start again, causing both possible sequences of the event to sync back up, allowing the cycle to be repeated.
+  - The sequence of inputs described above unfolds as follows: When the player steps onto a new grass tile, they are thrust into a random encounter or remain on the tile for 17 seconds. Subsequently, the player presses the start menu button. In a battle encounter, this action has no effect, but in the overworld, it triggers the selection screen, allowing the dimension where the encounter takes place to utilize any move without affecting the state of the overworld game. The player runs away and then hits start again, causing both possible sequences of the event to sync back up, allowing the cycle to be repeated.
 
   
 
