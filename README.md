@@ -7,7 +7,7 @@ Pokémon Platinum involves a multitude of choices, random encounters, and strate
 
 The ultimate goal of this project is to showcase the programming process required to complete the finished project via YouTube video.
 # Button Mapping
-- It would be hard to understand the code without knowing what an individual button press does, below is to be used as a reference to understand these inputs.
+- It would be hard to understand the code without knowing what an individual button press does. Below is to be used as a reference to understand these inputs.
   - WASD = Move Up, Move Left, Move Right, Move Down
   - F = Continue Button
   - X = Open Bag
