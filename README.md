@@ -5,7 +5,7 @@ This Python Project represents an ambitious attempt to programmatically solve Po
 
 Pokémon Platinum involves a multitude of choices, random encounters, and strategies. However, this project aims to overcome these challenges by providing a predetermined sequence of inputs that ensures victory without relying on in-game feedback, RNG manipulation, or frame-perfect inputs.
 
-The ultimate goal of this project is to showcase the programming process required to complete the finished project via YouTube video.
+The ultimate goal of this project is to showcase the programming process required to complete the finished project via YouTube video
 # Button Mapping
 - It would be hard to understand the code without knowing what an individual button press does. Below is to be used as a reference to understand these inputs.
   - WASD = Move Up, Move Left, Move Right, Move Down
