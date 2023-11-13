@@ -1,4 +1,4 @@
-# gym_3  
+# gym_3  .
 import time
 import pyautogui
 
