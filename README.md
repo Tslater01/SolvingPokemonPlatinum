@@ -124,5 +124,5 @@ The ultimate goal of this project is to showcase the programming process require
 # Notes
 - gym_1 finished on 9/25/23
 - gym_2 finished on 9/29/23
-- gym_3 projected finish date 10/21/23
+- currently working on gym_3
 
