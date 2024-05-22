@@ -1,5 +1,5 @@
 # gym_3  
-impo
+impor
 import pyautogui
 
 
