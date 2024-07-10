@@ -1,6 +1,6 @@
 # gym_1
 
-import tim
+import time
 import pyautogui
 
 
