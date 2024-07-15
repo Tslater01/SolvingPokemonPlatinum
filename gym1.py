@@ -8,7 +8,7 @@ import pyautogui
 def press_key(key, delay=1):
     pyautogui.keyDown(key)  # hold duration
     pyautogui.keyUp(key)
-    time.sleep(delay)  # delay between each key press
+    time.sleep(delay)  # delay between each button press
 
 
 def turn(key, delay=1):
