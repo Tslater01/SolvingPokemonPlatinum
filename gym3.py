@@ -1,6 +1,6 @@
 # gym_3  
 import time
-import pyauto
+import pyautog
 
 
 # Function to press and hold a key, then release it
