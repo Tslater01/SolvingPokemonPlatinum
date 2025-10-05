@@ -3,7 +3,7 @@ This GitHub repository, "Mathematically Solving Pokémon Platinum," focuses on s
 
 This Python Project represents an ambitious attempt to programmatically solve Pokémon Platinum, aiming to create a foolproof set of inputs that guarantee success, regardless of the game's inherent variability. This project extends the concept of playing a game without traditional senses by going beyond the visual and auditory aspects, instead relying solely on mathematical calculations to secure victory. Additionally, progress updates are provided, with Gym 1 and Gym 2 already completed as of specific dates. This project's unique approach takes inspiration from endeavors like "Can you Beat Pokemon FireRed while Blind and Deaf?" on YouTube but elevates the challenge by introducing mathematical precision to ensure success.
 
-Pokémon Platinum involves a multitude of choices, random encounters, and strategies. However, this project aims to overcome these challenges by providing a predetermined sequence of inputs that ensures victory without relying on in-game feedback, RNG manipulation, or frame-perfect inputs.
+Pokémon Platinum involves a multitude of choices, random encounters, and strategies. However, this project aims to overcome these challenges by providing a predetermined sequence of inputs that ensures victory without relying on in-game feedback, RNG manipulation, or frame-perfect inputs
 
 The ultimate goal of this project is to showcase the programming process required to complete the finished project via YouTube video.
 # Button Mapping
